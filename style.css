@@ -1,17 +1,72 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 40px;
-    background-color: #f5f5f5;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
 }
 
-h1 {
-    color: #333;
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
 }
 
-div {
+.description {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.description h1 {
+  margin-bottom: 10px;
+}
+
+.description p {
+  color: #555;
+}
+
+.links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+section h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.project-card {
     background: white;
     padding: 15px;
     margin-top: 10px;
-    border-radius: 8px;
+    color: #0077cc;
+    text-decoration: none;
 }
 
+.project-card a:hover{
+    text-decoration: underline;
+}
+
+.skills {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 40px;
+}
+
+h1 {
+  color: #333;
+}
+
+div {
+  background: white;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
